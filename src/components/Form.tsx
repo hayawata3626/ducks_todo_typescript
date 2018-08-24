@@ -2,6 +2,7 @@ import React from "react"
 import Button from "@material-ui/core/Button"
 
 export default class Form extends React.Component {
+  private inputText: HTMLInputElement;
   render() {
     return (
       <form

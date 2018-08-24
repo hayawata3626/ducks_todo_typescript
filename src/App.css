@@ -22,7 +22,67 @@
   font-size: large;
 }
 
+.logoArea {
+  background: #282c34;
+  padding: 10px;
+}
+
+.logo {
+  width: 150px;
+  margin: 0 auto;
+}
+
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Todo */
+
+.todo {
+  border: 1px solid #ccc;
+  width: 500px;
+  margin: 20px auto 0;
+}
+
+.todoList {
+  width: 660px;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.todoList_title {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.todo_content.completed {
+  text-decoration: line-through;
+}
+.todo_header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+/* addToto */
+.addToto {
+  margin-top: 20px;
+}
+.addToto_input {
+  padding: 10px;
+  font-size: 14px;
+}
+.addToto_button {
+  border: none;
+  padding: 10px;
+  background: #323232;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 10px;
 }
